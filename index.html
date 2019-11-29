@@ -1,0 +1,1594 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Swinburne Kids Website">
+    <meta name="keywords" content="Swinburne Kids, kindergarten, school, programs, education">
+    <meta name="author" content="Serap Yildirim Bakan">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Link to Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Swinburne Kids</title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" class="d-print-none" title="Go to top"><span class="fas fa-chevron-circle-up"></span></button>
+    <header class="sticky-top">
+        <div>
+            <div class="wrapper">
+                <div class="container-fluid navigation"  style="position:relative">
+                    <div class="top-nav py-lg-3">
+                        <form class="form-inline my-2 my-md-1 my-lg-0 text-right d-none d-lg-block">
+                            <input id="search-form" class="form-control col-10 ml-sm-2" type="search" placeholder="🔎" aria-label="Search">
+                            <label for="search-form" class="d-none">.</label>
+                        </form>
+                        <a href="#form-clickable" class="btn btn-register ml-sm-2 d-none d-lg-block">Registration</a>
+                        <button type="button" data-toggle="modal" data-target="#modal10" class="btn btn-login ml-sm-2 d-none d-lg-block">Parent Login</button> 
+                    </div>
+                    <nav class="bottom-nav">
+                        <div class="bottom-nav-left">
+                            <a class="navbar-brand " href="#"><span><img src="images/logo.png" alt="Swinburne Kids Logo"></span></a>
+                        </div>
+                        <div class="bottom-nav-left" >
+                            <ul class="bottom-navbar-list d-none d-lg-flex">
+                                <li><a class="custom-underline" href="#about">About <span class="sr-only">(current)</span></a></li>
+                                <li><a class="custom-underline" href="#program">Programs</a></li>
+                                <li> <a class="custom-underline" href="#team">Team</a></li>
+                                <li><a class="custom-underline" href="#news">Events & News</a></li>
+                                <li><a class="custom-underline" href="#gallery">Gallery</a></li>
+                                <li><a class="custom-underline pr-0" href="#contact">Contact Us</a></li>
+                            </ul>
+                            <a id="toggle-button" class="toggler-nav text-right mr-md-2 d-lg-none">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                            </a>
+                        </div>
+                    </nav>
+                </div>  
+            </div>
+        </div>
+    <nav class="mobile-nav mobile-nav-bg mobile-nav-animation d-lg-none">
+        <ul class="mobile-navbar-list m-0 p-0 text-center">
+            <li class="mobile-links"><a  href="#about">About</a></li>
+            <li class="mobile-links"><a href="#program">Programs</a></li>
+            <li class="mobile-links"><a href="#team">Team</a></li>
+            <li class="mobile-links"><a href="#news">Events & News</a></li>
+            <li class="mobile-links"><a href="#gallery">Gallery</a></li>
+            <li class="mobile-links"><a  href="#contact">Contact Us</a></li>
+            <li class="mobile-links"><a href="#form-clickable">Registration <span class="far fa-file-alt"></span></a></li>
+            <li class="mobile-links"><a href="#login" data-toggle="modal" data-target="#modal10">Parent Login <span class="fas fa-sign-in-alt"></span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- END OF NAV-->
+
+<!--CAROUSEL-->
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active">X</li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/hero/toy.jpg" class="d-none d-md-block w-100" alt="Swinburne Kids Welcoming">
+                    <img src="images/hero/toys.jpg" class="d-none d-sm-block d-md-none w-100" alt="Swinburne Kids Welcoming">
+                    <img src="images/hero/toySmall.jpg" class="d-block d-sm-none w-100" alt="Swinburne Kids Welcoming">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-bg">
+                            <h1 class="welcoming pb-sm-4 pb-md-0">Welcome to Swinburne Kids</h1>
+                            <p class="welcome-p pt-2 pb-3 pb-sm-4 pb-mb-3">Working together to create a safe and inclusive place to play, grow and learn.</p>
+                            <div class="text-center"><a href="#about" class="d-sm-inline btn-carousel-hover btn btn-about mr-1">Learn More</a>
+                            <a href="#program" class="d-sm-inline btn btn-programs btn-carousel-hover ml-1">Programs</a></div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hero/invited.jpg" class="d-none d-md-block w-100" alt="Swinburne Kids Open Day">
+                    <img src="images/hero/invitedM.jpg" class="d-none d-sm-block d-md-none w-100" alt="Swinburne Kids Open Day">
+                    <img src="images/hero/invitedSmall.jpg" class="d-block d-sm-none w-100" alt="Swinburne Kids Open Day">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-bg">
+                            <h1 class="welcoming welcoming-second pb-sm-4 pb-md-0">You are invited to attend Open Day</h1>
+                            <p class="welcome-p pt-2 pb-3 pb-sm-4 pb-mb-3">Friday 29 November - 1-3 pm </p>
+                            <div class="text-center"><a href="#events" class="d-sm-inline btn-carousel-hover btn btn-about mr-1">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hero/play.jpg" class="d-none d-md-block w-100" alt="Swinburne Kids Play">
+                    <img src="images/hero/play1Med.jpg" class="d-none d-sm-block d-md-none w-100" alt="Swinburne Kids Play">
+                    <img src="images/hero/hero2_small.jpg" class="d-block d-sm-none w-100" alt="Swinburne Kids Play">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-bg">
+                            <h1 class="welcoming pb-sm-4 pb-md-0">Up and Coming Events</h1>
+                            <p class="welcome-p pt-2 pb-3 pb-sm-4 pb-mb-3">Footy Colours Day - 20 January</p>
+                            <div class="text-center">
+                                <a href="#events" class="d-sm-inline btn btn-programs btn-carousel-hover ml-1">All Events</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span aria-hidden="true"><span class="arrows fas fa-arrow-circle-left"></span></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span aria-hidden="true"><span class="arrows fas fa-arrow-circle-right"></span></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+<!--CAROUSEL ENDS-->
+<div id="about" class="about" style="position: relative;">
+    <div class="container about-container">
+        <section >
+            <h2 class="pt-2 pt-md-0">ABOUT US</h2>
+            <p class="about-first-p">Swinburne Kids is a not-for-profit community based kindergarten in the heart of Hawthorn, run by a voluntary committee of parents. Swinburne Kids offers a range of high quality early learning programs for children aged 3-4 year.</p>
+        </section>
+        <section id="learning-env" class="p-lg-4">
+            <div class="row text-left">
+                <div class="col-lg-6">
+                    <div class="about-layer-1 d-none d-lg-block"></div>
+                    <h3 class="index-learning-text learning-h3 pt-4 pl-lg-4">Our Learning Environment</h3>
+                    <p class="index-learning-text pl-lg-4"><span class="fas fa-check"></span> The environment offers stimulating experiences and open-ended materials which children are encouraged to use creatively rather than prescriptively. </p>
+                    <p class="index-learning-text pl-lg-4"><span class="fas fa-check"></span> Children are supported to
+                        discover at their own pace in an unhurried atmosphere, where their discoveries and
+                        achievements are valued. We nurture each child to reach their full potential and we recognise that children learn in many different ways and styles.</p>
+                    <p class="index-learning-text pb-4 pl-lg-4 m-0"><span class="fas fa-check"></span> We are committed to creating a safe environment for children where the health, wellbeing, rights and best interests of every child are paramount.</p>
+                </div>
+                <div class="col-md-10 col-lg-6 pt-md-2 pt-lg-0 pl-lg-0 about-image-1 mx-md-auto mb-md-2 mb-lg-0" style="position:relative">
+                    <a href="" data-toggle="modal" data-target="#modal12"><div class="book-tour-layer text-center">
+                        <div class="book-tour">
+                            <p class="book-tour-p mx-auto mb-0" style="width:60%">Book a free tour</p>
+                            <span class="book-tour-i fas fa-map-marked-alt"></span>
+                        </div>
+                    </div></a>
+                    <img src="images/reading.jpg" class="img-left-radius img-right-radius d-block w-100" alt="Swinburne Kids Learning">
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div id="approach" class="container-fluid approach-container mt-2 mt-md-0" style="position: relative;">
+        <div class="approach-layer"></div>
+        <section class="text-center">
+            <h3 class="pt-2 pt-md-3 pt-lg-2 pb-3 learning-h3">Our Approach</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pb-md-3 pb-lg-0 pb-md-0" >
+                        <div class="mx-1 background-for-approach">
+                            <img src="images/binoculars.png" class="approach-icons py-1" alt="Binoculars Icon">
+                            <p>Staff empower children to pursue their interests, extend their knowledge through experiential learning, and build foundations for lifelong learning. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mx-1 background-for-approach" >
+                            <img src="images/pencil.png" class="approach-icons py-1" alt="Pencil Icon">
+                            <p>We encourage children to become independent, solve problems for themselves, and to be compassionate, respectful individuals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </section>  
+</div>
+<div id="curriculum" class="container curriculum-container">
+    <section class="px-lg-4 pt-lg-4 pb-lg-0 pb-xl-4">
+        <div class="row text-left curriculum-top-marg">
+            <div class="col-md-10 col-lg-6 pt-2 pt-lg-0 curriculum-marg mx-md-auto" style="position:relative">
+                <a href="" data-toggle="modal" data-target="#modal11"><div class="book-tour-layer subs-newsletter text-center">
+                    <div class="book-tour">
+                        <p class="book-tour-p text-center mb-0" style="width:90%;margin:auto">Join our newsletter</p>
+                        <span class="book-tour-i fas fa-envelope-open-text"></span>
+                    </div>
+                </div></a>
+                <img src="images/play5.jpg" class="img-right-radius img-left-radius d-block w-100 " alt="Swinburne Kids Learning">
+            </div>
+            <div class="col-lg-6 ">
+                <div class="about-layer-2 d-none d-lg-block"></div>
+                <h3 class="pt-4 learning-h3">Our Curriculum</h3>
+                <p><span class="fas fa-check second-check"></span> Our play-based curriculum encourages each child to be a competent and confident learner,
+                    and fosters communication, exploration, independence, respect for others, curiosity, imagination and creativity. </p>
+                <p class="m-0 mb-1 mb-lg-3 pb-lg-4"><span class="fas fa-check second-check"></span> Our learning program and practices are based on the Victorian Early Years Learning and Development Framework, and the Early Years Learning Framework, and educators are also guided by Early Childhood Australia’s Code of Ethics, the United Nations Convention on the Rights of the Child and the National Quality Standards.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="program" class="programs mt-lg-4 mt-xl-0 pb-md-3" style="position: relative;background-color: #FFF6F1;">
+    <div class="container programs-container ">
+        <section class="text-center">
+            <h2 class="pt-1 pt-md-0">PROGRAMS</h2>
+            <p class="programs-first-p pb-md-4">We deliver a rich and caring kindergarten program and personalized attention for children aged 3-4 years. Our program offers both indoor and outdoor learning experiences, as well as opportunities for solo and group play.</p>
+            <div class="row mt-2" style="margin: auto">
+                <div class="col-sm-8 col-md-4 my-3 my-lg-0" style="margin: auto">
+                    <ul class="program-list p-2">
+                        <li class="p-2 font-weight-bold program-list-border">Indoor Learning Experiences</li>
+                        <li>painting, drawing and writing</li>
+                        <li>clay or playdough play</li>
+                        <li>puzzles and games</li>
+                        <li>construction – for example, with blocks or Lego</li>
+                        <li>books</li>
+                        <li >sensory activities</li>
+                    </ul>
+                </div>
+                <div class="col-sm-8 col-md-4 mb-3 mb-lg-0" style="margin: auto">
+                        <ul class="program-list p-2">
+                            <li class="p-2 font-weight-bold program-list-border">Outdoor Learning Experiences</li>
+                            <li>sand play</li>
+                            <li>play in the natural environment</li>
+                            <li>gardening</li>
+                            <li>carpentry</li>
+                            <li>water play</li>
+                            <li >dramatic play</li>
+                            <li >swings and climbing equipment</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-8 col-md-4" style="margin: auto">
+                        <ul class="program-list p-2">
+                            <li class="p-2 font-weight-bold program-list-border">Group Learning Experiences</li>
+                            <li>stories</li>
+                            <li>poetry</li>
+                            <li>dancing and singing</li>
+                            <li>playing with musical instruments</li>
+                            <li>drama</li>
+                            <li>acting</li>
+                            <li >show and tell</li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+        <section class="pt-md-1 pt-lg-4">
+            <div class="container-fluid">
+                <hr>
+            </div>
+            <h3 class="pb-3 pt-md-3 pt-lg-4 mt-1 pb-lg-4 learning-h3 text-center">Learning Groups</h3>
+            <div class="row text-center" style="margin: auto">
+                <div class="col-sm-8 col-md-4 mx-auto mx-md-0" >
+                    <div class="age-group" style="position:relative;">
+                        <img src="images/3years.jpg" class="programs-transition img-left-radius img-right-radius d-block w-100" alt="3 years program"  >
+                        <div class="programs_layer">
+                            <p class="programs-layer-h3 font-weight-bold" >3 years old group</p>
+                        </div>
+                    </div>
+                    <p class="pt-3 pl-2 pr-2 ">This group will take place in Tuesdays & Thursdays,  3 hours a day.</p>
+                    <p class="pb-3 pl-2 pr-2  pb-md-0 mb-0">If your child was born on May 1st, 2016 – April 30th, 201 7 your child is eligible for the 2020 program for the 3-year-old. </p>
+                </div>
+                <div class="col-sm-8 col-md-4 mx-auto mx-md-0" >
+                    <div class="age-group" style="position:relative;">
+                            <img src="images/4years1.jpg" class="programs-transition img-left-radius img-right-radius d-block w-100" alt="4 years program"  >
+                            <div class="programs_layer">
+                                <p class="programs-layer-h3 font-weight-bold">4 years old group 1</p>
+                            </div>
+                    </div>
+                    <p class="pt-3 pl-2 pr-2 ">This group will take place in Mondays, Wednesdays & Fridays,  3 hours a day.</p>
+                    <p class="pb-3 pl-2 pr-2  pb-md-0 mb-0">If your child was born on May 1 2015 – April 30 2016 your child is eligible for the 2020 program for the 4-year-old.  </p>
+                </div>
+                <div class="col-sm-8 col-md-4 mx-auto mx-md-0" >
+                    <div class="age-group" style="position:relative;">
+                            <img src="images/4years2.jpg" class="programs-transition img-left-radius img-right-radius d-block w-100" alt="4 years program"  >
+                            <div class="programs_layer">
+                                <p class="programs-layer-h3 font-weight-bold" >4 years old group 2</p>
+                            </div>
+                    </div>
+                    <p class="pl-2 pr-2 pt-3">This group will take place in Tuesdays & Thursdays,  5 hours a day.</p>
+                    <p class="pl-2 pr-2 mb-md-4">If your child was born on May 1 2015 – April 30 2016 your child is eligible for the 2020 program for the 4-year-old.  </p>
+                    <span id="form-clickable"></span>
+                </div>
+            </div>
+        </section>
+        <section id="form" class="pt-4">
+            <div class="row" style="margin: auto">
+                <div class="col-12 d-block d-lg-none pb-2">
+                        <div  id="register1" class="pb-2 formBtn"><div class="form-button-transition button-green form-button text-left">
+                            <span class="fas fa-pen p-3"></span><div class="pl-3">Registration</div>
+                        </div></div>
+                        <div id="register1Inf" class="formBtn mb-2 showInfo p-4">
+                            <p>We run a waiting list as our center is in high demand. You can register for a place online by submitting application form.. A $10 registration fee is paid to make an application.</p>
+                            <p>Swinburne Kids will notify parents by email if there is a vacancy. This email will contain additional guidelines for finalizing the enrolment of your child in Swinburne Kids.</p>
+                            <button data-toggle="modal" data-target="#modal9" type="button" class="btn btn-register ml-sm-2">Application Form</button>
+                        </div>
+                        <div id="tour1" class="pb-2 formBtn"><div class="form-button-transition button-pink form-button text-left">
+                            <span class="fas fa-car p-3"></span><div class="pl-3">Tour</div>
+                        </div></div>
+                        <div id="tour1Inf" class="d-lg-none mb-2 showInfo p-4">
+                            <p>Center tours will give you the opportunity to meet with teachers and check out services and experience both indoor and outdoor. If you would like to tour the kindergarten, please book a tour.</p>
+                            <button data-toggle="modal" data-target="#modal12" type="button" class="btn btn-register ml-sm-2">Book a Tour</button>
+                        </div>
+                        <div id="fee1" class="pb-2 formBtn"><div class="form-button-transition button-yellow form-button text-left">
+                            <span class="fas fa-file-invoice-dollar p-3" style="width:52px"></span><div class="pl-3">Fees</div>
+                        </div></div>
+                        <div id="fee1Inf" class="d-lg-none mb-2 showInfo p-4">
+                            <p>3 year old program: <span class="font-weight-bold">$390.00 per term</span></p>
+                            <p>4 year old group 1 program: <span class="font-weight-bold">$430.00 per term</span></p>
+                            <p class="mb-0">4 year old group 2 program: <span class="font-weight-bold">$550.00 per term</span></p>  
+                        </div>
+                        <div id="time1" class="pb-2 formBtn"><div class="form-button-transition form-button button-blue text-left">
+                            <span class="fas fa-calendar-day p-3" style="width:52px"></span><div class="pl-3">Term Dates</div>
+                        </div></div>
+                        <div id="time1Inf" class="d-lg-none showInfo p-4">
+                             <h5 class="text-center">2020 Victoria Holidays and Term Dates</h5>
+                             <div class="table-responsive-md">
+                             <table class="table m-0 table-sm table-outline">
+                                    <thead>
+                                        <tr><th  scope="col" id="period">Period</th><th scope="col" id="start">Start</th><th scope="col" id="finish">Finish</th><th scope="col" id="lenght">Length</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><th scope="row" headers="period" id="one">Term 1</th><td headers="one start">28 January 2020</td><td headers="one finish">27 March 2020</td><td headers="one lenght">9 weeks</td></tr>
+                                        <tr><th scope="row" headers="period" id="two">Term 2</th><td headers="two start">14 April 2020</td><td headers="two finish">26 June 2020</td><td headers="two lenght">11 weeks</td></tr>
+                                        <tr><th scope="row" headers="period" id="three">Term 3</th><td headers="three start">13 July 20202</td><td headers="three finish">18 September 2020</td><td headers="three lenght">10 weeks</td></tr>
+                                        <tr><th scope="row" headers="period" id="four">Term 4</th><td headers="four start">19 September 2020</td><td headers="four finish">4 October 2020</td><td headers="four lenght" >11 weeks</td></tr>
+                                    </tbody>
+                            </table>
+                            </div>
+                        </div>
+                </div>
+                <div class="d-none d-lg-block col-lg-3">
+                        <div  id="register" class=" pb-2 formButton"><div class="form-button-transition button-green form-button text-left">
+                            <span class="fas fa-pen p-3"></span><div class="pl-3">Registration</div>
+                        </div></div>
+                        <div id="tour" class="pb-2  formButton"><div class="form-button-transition button-pink form-button text-left">
+                            <span class="fas fa-car p-3"></span><div class="pl-3">Tour</div>
+                        </div></div>
+                        <div id="fee" class="pb-2  formButton"><div class="form-button-transition button-yellow form-button text-left">
+                            <span class="fas fa-file-invoice-dollar p-3" style="width:52px"></span><div class="pl-3">Fees</div>
+                        </div></div>
+                        <div id="time" class="pb-2  formButton"><div class="form-button-transition form-button button-blue text-left">
+                            <span class="fas fa-calendar-day p-3" style="width:52px"></span><div class="pl-3">Term Dates</div>
+                        </div></div>
+                </div>
+                <div class="d-none d-lg-block col-lg-9">
+                    <div id="registerInfo" class="showInfos p-4">
+                        <p>We run a waiting list as our center is in high demand. You can register for a place online by submitting application form. A $10 registration fee is paid to make an application.</p>
+                        <p>Swinburne Kids will notify parents by email if there is a vacancy. This email will contain additional guidelines for finalizing the enrolment of your child in Swinburne Kids.</p>
+                        <button data-toggle="modal" data-target="#modal9" type="button" class="btn btn-register ml-sm-2">Application Form</button>
+                    </div>
+                    <div id="tourInfo" class="showInfos p-4">
+                        <p>Center tours will give you the opportunity to meet with teachers and check out services and experience both indoor and outdoor. If you would like to tour the kindergarten, please book a tour.</p>
+                        <button data-toggle="modal" data-target="#modal12" type="button" class="btn btn-register ml-sm-2">Book a Tour</button>
+                    </div>
+                    <div id="feeInfo" class="showInfos p-4" >
+                        <p>3 year old program: <span class="font-weight-bold">$390.00 per term</span></p>
+                        <p>4 year old group 1 program: <span class="font-weight-bold">$430.00 per term</span></p>
+                        <p class="mb-0">4 year old group 2 program: <span class="font-weight-bold">$550.00 per term</span></p>
+                    </div>
+                    <div id="timeInfo" class="showInfos p-4">
+                        <h5 class="text-center">2020 Victoria Holidays and Term Dates</h5>
+                        <div class="table-responsive-md">
+                        <table class="table m-0 table-sm table-outline">
+                            <thead>
+                                <tr><th id="period2" scope="col">Period</th><th id="start2" scope="col">Start</th><th id="finish2" scope="col">Finish</th><th id="lenght2" scope="col">Length</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><th scope="row" headers="period2" id="one1">Term 1</th><td headers="one1 start2">28 January 2020</td><td headers="one1 finish2">27 March 2020</td><td headers="one1 lenght2">9 weeks</td></tr>
+                                <tr><th scope="row" headers="period2" id="two2">Term 2</th><td headers="two2 start2">14 April 2020</td><td headers="two2 finish2">26 June 2020</td><td headers="two2 lenght2">11 weeks</td></tr>
+                                <tr><th scope="row" headers="period2" id="three3">Term 3</th><td headers="three3 start2">13 July 20202</td><td headers="three3 finish2">18 September 2020</td><td headers="three3 lenght2">10 weeks</td></tr>
+                                <tr><th scope="row" headers="period2" id="four4">Term 4</th><td headers="four4 start2">19 September 2020</td><td headers="four4 finish2">4 October 2020</td><td headers="four4 lenght2" >11 weeks</td></tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div id="team">
+    <div class="container programs-container pb-2 pb-md-4">
+        <section class="text-center">
+            <h2 class="pt-1 pt-md-0">MEET OUR TEAM</h2>
+        </section>
+        <div class="pt-2 pt-md-4">
+            <div class="row" style="margin: auto">
+                <div class="col-10 col-sm-6 col-lg-3 text-center" style="margin: auto">
+                    <div class="bg-team m-0">
+                        <img class="p-2" src="images/samantha.png" alt="Early Childhood Teacher Samantha" style="border-radius:50%; width:150px;height:auto">
+                        <p class="m-0 p-3 mt-3 team-blue-p font-weight-bold">Early Childhood Teacher</p>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#modal7">
+                    <div class="bg-bottom-blue p-3">
+                        <p class="m-0">Ms Samantha Manner</p>
+                        <p class="m-0">GradDip Ed (Early Childhood), BA (Dance)</p>
+                    </div></a>
+                </div>
+                <div class="pt-4 pt-sm-0 mt-md-0 col-10 col-sm-6 col-lg-3 text-center" style="margin: auto">
+                    <div class="bg-team m-0">
+                        <img class="p-2" src="images/heather.jpg" alt="Early Childhood Teacher Heather" style="border-radius:50%; width:150px;height:auto">
+                        <p class="m-0 p-3 mt-3 team-blue-p font-weight-bold">Early Childhood Teacher</p>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#modal6">
+                    <div class="bg-bottom-blue p-3">
+                        <p class="m-0">Mrs Heather Simpson</p>
+                        <p class="m-0">GradDip Ed (Early Childhood), BA (Arts)</p>
+                    </div></a>
+                </div>
+                <div class="pt-4 pt-lg-0 col-10 col-sm-6 col-lg-3 text-center" style="margin: auto">
+                    <div class="bg-team m-0">
+                        <img class="p-2" src="images/jodie.png" alt="Early Childhood Assistant Jodie" style="border-radius:50%; width:150px;height:auto">
+                        <p class="m-0 p-3 mt-3 team-red-p font-weight-bold">Early Childhood Assistant</p>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#modal5">
+                    <div class="bg-bottom-red p-3">
+                        <p class="m-0">Ms Jodie Newton</p>
+                        <p class="m-0">Certificate III in Children’s Services</p>
+                    </div></a>
+                </div>
+                <div class="pt-4 pt-lg-0 col-10 col-sm-6 col-lg-3 text-center" style="margin: auto">
+                    <div class="bg-team m-0">
+                        <img class="p-2" src="images/rachael.jpg" alt="Early Childhood Assistant Rachael" style="border-radius:50%; width:150px;height:auto">
+                        <p class="m-0 p-3 mt-3 team-red-p font-weight-bold">Early Childhood Assistant</p>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#modal4">
+                    <div class="bg-bottom-red p-3">
+                        <p class="m-0">Mrs Rachael Brown</p>
+                        <p class="m-0">Certificate III in Children’s Services</p>
+                    </div></a>
+                </div>
+                <div class="pt-4 col-10 col-sm-6 col-lg-3 text-center mx-auto mx-md-0">
+                    <div class="bg-team m-0">
+                        <img class="p-2" src="images/sue.png" alt="Early Childhood Assistant Sue" style="border-radius:50%; width:150px;height:auto">
+                        <p class="m-0 p-3 mt-3 team-red-p font-weight-bold">Early Childhood Assistant</p>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#modal3">
+                    <div class="bg-bottom-red p-3">
+                        <p class="m-0">Sue Childs</p>
+                        <p class="m-0">Certificate III in Children’s Services</p>
+                    </div></a>
+                </div>
+                <div class="pt-4 col-10 col-sm-6 col-lg-3 text-center mx-auto mx-md-0">
+                    <div class="bg-team m-0">
+                        <img class="p-2" src="images/lisa.jpg" alt="Early Childhood Assistant Lisa" style="border-radius:50%; width:150px;height:auto">
+                        <p class="m-0 p-3 mt-3 team-red-p font-weight-bold">Early Childhood Assistant</p>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#modal2">
+                    <div class="bg-bottom-red p-3">
+                        <p class="m-0">Lisa Collins</p>
+                        <p class="m-0">Certificate III in Children’s Services</p>
+                    </div></a>
+                </div>
+                <div class="pt-4 col-10 col-sm-6 col-lg-3 text-center mx-auto mx-sm-0">
+                    <div class="bg-team m-0">
+                        <img class="p-2" src="images/michelle.jpg" alt="Administration Michelle" style="border-radius:50%; width:150px;height:auto">
+                        <p class="m-0 p-3 mt-3 team-green-p font-weight-bold">Administration</p>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#modal1">
+                        <div class="bg-bottom-green p-3">
+                        <p class="m-0">Michelle Jones</p>
+                        <p class="m-0">Diploma of Business (Accounting)</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <div id="supporters" class="mt-1 mt-md-0 supporters pb-md-2 pb-lg-3">
+            <div class="container programs-container pb-0">
+                <div class="container-fluid"><hr class="pb-lg-1"></div>
+                
+                <section class="text-center">
+                    <h3 class="pb-2 pb-md-3 pt-2 pt-md-3 pt-lg-4 pt-lg-4 learning-h3">Our Supporters</h3>
+                    <p class="programs-first-p pb-md-4">Swinburne Kids is fortunate to be supported by many business and organisations in the
+                            community for various fundraising events held each year. Many local businesses are also
+                            happy to help raise funds for our kinder if, in kind, we support them. So please consider
+                            shopping and ordering from the following on-going sponsors of Swinburne Kids as a
+                            percentage of your sales contribute directly to our fundraising. Please click on the logos
+                            below to visit their websites.</p>
+                    <div class="supporters-logo mt-3 mx-auto">
+                    <div class="row mx-auto" >
+                        <div class="col-6 col-md-3">
+                            <a href="https://www.bunnings.com.au/"><img class="logos m-3" src="images/bunnings.png" alt="Bunnings Warehouse"></a>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <a href="https://www.chemistwarehouse.com.au/"><img class="logos m-3" src="images/chemist.jpg" alt="Chemist Warehouse"></a>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <a href="https://rainbowmeats.com.au/"><img class="logos mx-3 mt-3" src="images/rainbowMeats.jpg" alt="Rainbow Meats"></a>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <a href="https://www.stuckonyou.com.au/"><img class="logos stuckOn mx-3 mt-3" src="images/StuckOnYou.jpg" alt="Stuck On You"></a>
+                        </div>
+                    </div>
+                   </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="acknowledgement" class="container-fluid ackn-container mt-0" style="position: relative;background-color: #E3B78D;top:0">
+    <div class="approach-layer"></div>
+    <section class="text-center">
+        <h3 class="pt-2 pt-md-3 pt-lg-2 pb-3 learning-h3">Acknowledgement</h3>
+        <div class="container">
+            <p class="programs-first-p pb-2 pb-md-4 pb-lg-2">We acknowledge the Wurundjeri people who are the Traditional Custodians of this Land.
+                    We value the diversity and cultural backgrounds of our families, we respect their strengths,
+                    knowledge and needs in our practice. We acknowledge families as children’s first educators,
+                    support them in their parenting role and work in partnership with them to support
+                    children’s learning, development and wellbeing.</p>
+        </div>    
+</section>  
+</div>
+<div id="news" style="background-color: #FFF7F2;">
+    <div class="container programs-container">
+        <section class="text-center">
+            <h2 class="pt-1 pt-md-0">LATEST NEWS</h2>
+            <div class="row pt-3 pb-3" style="margin: auto">
+                <div class="col-sm-10 col-md-8 col-lg-4 text-left mx-auto pb-4 pb-lg-0" >
+                    <div class="m-0">
+                        <a href="" data-toggle="modal" data-target="#modal13"><img class="news-transition card-img-top" src="images/nature.jpg" alt="Healthy Food Day"></a>
+                    </div>
+                    <div class="news-bottom p-3">
+                        <p class="m-0 font-weight-bold" style="color:rgb(52, 95, 126)">12/10/2019</p>
+                        <h5 class="py-2 m-0 font-weight-bold">Healthy Food Day</h5>
+                        <p class="m-0">A healthy diet and lifestyle are the best weapons to protect against heart disease. Let's see the healthy food day activities.</p>
+                        <a href="" data-toggle="modal" data-target="#modal13"><p class="news-card-button font-weight-bold mb-0 pt-2">Read More</p></a>
+                        <hr>
+                        <div class="text-right">
+                            <a href="#" class="mx-2"><span class="far fa-heart"></span></a>
+                            <a href="#"><span class="fas fa-share"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-8 col-lg-4 text-left mx-auto pb-4 pb-lg-0">
+                    <div class="m-0">
+                        <a href="" data-toggle="modal" data-target="#modal14"><img class="news-transition card-img-top" src="images/dance.jpg" alt="Dancing"></a>
+                    </div>
+                    <div class="news-bottom p-3">
+                        <p class="m-0 font-weight-bold" style="color:rgb(52, 95, 126)">18/09/2019</p>
+                        <h5 class="py-2 m-0 font-weight-bold">Dancing</h5>
+                        <p class="m-0">Dancing is a highly physical practise, and children who regularly dance can boost their overall physical health significantly.</p>
+                        <a href="" data-toggle="modal" data-target="#modal14"><p class="news-card-button font-weight-bold mb-0 pt-2">Read More</p></a>
+                        <hr>
+                        <div class="text-right">
+                            <a href="#" class="mx-2"><span class="far fa-heart"></span></a>
+                            <a href="#"><span class="fas fa-share"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-8 col-lg-4 text-left mx-auto pb-4 pb-lg-4" >
+                    <div class="m-0">
+                        <a href="" data-toggle="modal" data-target="#modal15"><img class="news-transition card-img-top" src="images/painting1.jpg" alt="Painting"></a>
+                    </div>
+                    <div class="news-bottom p-3">
+                        <p class="m-0 font-weight-bold" style="color:rgb(52, 95, 126)">25/07/2019</p>
+                        <h5 class="py-2 m-0 font-weight-bold">Painting</h5>
+                        <p class="m-0">Painting will help your kids express their feelings or emotions. They can express themselves without the use of words by using different colours.</p>
+                        <a href="" data-toggle="modal" data-target="#modal15"><p class="news-card-button font-weight-bold mb-0 pt-2">Read More</p></a>
+                        <hr>
+                        <div class="text-right">
+                            <a href="#" class="mx-2"><span class="far fa-heart"></span></a>
+                            <a href="#"><span class="fas fa-share"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="showArticles col-sm-10 col-md-8 col-lg-4 text-left mx-auto pb-4 pt-lg-2" >
+                        <div class="m-0">
+                            <a href="" data-toggle="modal" data-target="#modal13"><img class="news-transition card-img-top" src="images/nature.jpg" alt="Healthy Food Day"></a>
+                        </div>
+                        <div class="news-bottom p-3">
+                            <p class="m-0 font-weight-bold" style="color:rgb(52, 95, 126)">12/10/2019</p>
+                            <h5 class="py-2 m-0 font-weight-bold">Healthy Food Day</h5>
+                            <p class="m-0">A healthy diet and lifestyle are the best weapons to protect against heart disease. Let's see the healthy food day activities.</p>
+                            <a href="" data-toggle="modal" data-target="#modal13" ><p class="news-card-button font-weight-bold mb-0 pt-2">Read More</p></a>
+                            <hr>
+                            <div class="text-right">
+                                <a href="#" class="mx-2"><span class="far fa-heart"></span></a>
+                                <a href="#"><span class="fas fa-share"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showArticles col-sm-10 col-md-8 col-lg-4 text-left mx-auto pb-4 pt-lg-2">
+                        <div class="m-0">
+                            <a href="" data-toggle="modal" data-target="#modal14" ><img class="news-transition card-img-top" src="images/dance.jpg" alt="Dancing"></a>
+                        </div>
+                        <div class="news-bottom p-3">
+                            <p class="m-0 font-weight-bold" style="color:rgb(52, 95, 126)">18/09/2019</p>
+                            <h5 class="py-2 m-0 font-weight-bold">Dancing</h5>
+                            <p class="m-0">Dancing is a highly physical practise, and children who regularly dance can boost their overall physical health significantly.</p>
+                            <a href="" data-toggle="modal" data-target="#modal14"><p class="news-card-button font-weight-bold mb-0 pt-2">Read More</p></a>
+                            <hr>
+                            <div class="text-right">
+                                <a href="#" class="mx-2"><span class="far fa-heart"></span></a>
+                                <a href="#"><span class="fas fa-share"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showArticles col-sm-10 col-md-8 col-lg-4 text-left mx-auto pb-4 pt-lg-2" >
+                        <div class="m-0">
+                            <a href="" data-toggle="modal" data-target="#modal15" ><img class="news-transition card-img-top" src="images/painting1.jpg" alt="Painting"></a>
+                        </div>
+                        <div class="news-bottom p-3">
+                            <p class="m-0 font-weight-bold" style="color:rgb(52, 95, 126)">25/07/2019</p>
+                            <h5 class="py-2 m-0 font-weight-bold">Painting</h5>
+                            <p class="m-0">Painting will help your kids express their feelings or emotions. They can express themselves without the use of words by using different colours.</p>
+                            <a href="" data-toggle="modal" data-target="#modal15"><p class="news-card-button font-weight-bold mb-0 pt-2">Read More</p></a>
+                            <hr>
+                            <div class="text-right">
+                                <a href="#" class="mx-2"><span class="far fa-heart"></span></a>
+                                <a href="#"><span class="fas fa-share"></span></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <button id="moreButton" type="button" class="btn btn-more ml-sm-2 mb-2 mb-lg-4"><span class="article-button">
+                <span class="m-0 p-0">View More Articles</span> <span class="m-0 p-0 fas fa-chevron-down"></span>
+            </span></button>
+        </section>  
+        <section id="events" class="container-fluid text-center mt-4">
+            <hr>
+            <h3 class="pb-3 pb-md-4 learning-h3 pt-2 pt-md-3">Upcoming Events</h3>
+            <div class="row mx-auto">
+                <div class="col-md-10 col-lg-5 col-xl-5 pb-4 mx-md-auto">
+                    <div class="row event-border">
+                        <div class="col-10 col-sm-4 date-shadow col-4 date-bg date-bg-first mx-auto">
+                            <div class="date-text pb-4 pt-2 pt-sm-0 pb-sm-0">
+                                <h5>23</h5>
+                                <h5>NOV</h5>
+                            </div>
+                        </div>
+                        <div class="col-10 col-sm-8 date-shadow text-left p-3 mx-auto" style="background-color: white;">
+                            <a href="#"><h5 class="date-title font-weight-bold">Open Day 2020</h5></a>
+                            <p class="font-weight-bold" style="color:#437AA1">1-3 PM @Swinburne Kids</p>
+                            <p class="mb-0">Visiting a Kindergarten is the best way to decide if the Kindergarten is right for both you and your child/ren.</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-10 col-lg-5 col-xl-5 pb-3 pb-md-4 mx-md-auto">
+                        <div class="row event-border">
+                            <div class="col-10 col-sm-4 date-shadow date-bg date-bg-second mx-auto">
+                                    <div class="date-text pb-4 pt-2 pt-sm-0 pb-sm-0">
+                                        <h5 style="color:white">20</h5>
+                                        <h5 style="color:white">JAN</h5>
+                                    </div>
+                            </div> 
+                            <div class="date-shadow col-10 col-sm-8 text-left p-3 mx-auto" style="background-color: white;">
+                                <a href="#"><h5 class="date-title font-weight-bold">Footy Colors Day</h5></a>
+                                <p class="font-weight-bold" style="color:#437AA1">9 AM @Princess Garden</p>
+                                <p class="mb-0">Participants are encouraged to wear their favourite team's colours to raise funds for kids with cancer.</p>
+                            </div>
+                        </div> 
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div id="gallery" class="container-fluid programs-container mt-0">
+    <section class="text-center pb-4">
+        <h3 class="pt-2 pb-3 learning-h3">Gallery</h3>
+        <div class="main-carousel" data-flickity='{ "groupCells": "80%", "initialIndex":1, "imagesLoaded": true }'>
+            <div class="carousel-cell"><img src="images/gallery/building2.jpg" alt="Building"></div>
+            <div class="carousel-cell"><img src="images/gallery/building4.jpg" alt="Building"></div>
+            <div class="carousel-cell"><img src="images/gallery/building3.jpg" alt="Building"></div>
+            <div class="carousel-cell"><img src="images/gallery/gardening3.jpg" alt="Gardening"></div>
+            <div class="carousel-cell"><img src="images/gallery/gardening5.jpg" alt="Gardening"></div>
+            <div class="carousel-cell"><img src="images/gallery/gardening6.jpg" alt="Gardening"></div>
+            <div class="carousel-cell"><img src="images/gallery/play7.jpg" alt="Play"></div>
+            <div class="carousel-cell"><img src="images/gallery/gardening7.jpg" alt="Gardening"></div>
+            <div class="carousel-cell"><img src="images/gallery/cooking1.jpg" alt="Cooking"></div>
+        </div>
+    </section>
+</div>
+<div id="contact" style="background-color: #ecf4f3;">
+    <div class="container programs-container mt-2">
+        <section class="text-center">
+            <h2 class="pt-2 pt-md-0">CONTACT US</h2>
+                <div class="pt-4 row mx-auto mb-2 mb-lg-3">
+                    <div class="col-md-10 col-lg-6 contact-first-sec mx-auto">
+                        <div class="text-left">
+                            <h4 class="font-weight-bold">Swinburne Kids</h4>
+                            <p >1 John Street, Hawthorn Vic 3122</p>
+                            <a  href="#"><p><span class="fas fa-phone-square-alt"></span> 9414 8000</p></a>
+                            <a  href="mailto:102482833@student.swin.edu.au"><p><span class="fas fa-envelope-square"></span> enquiries@swinburnekids.com.au</p></a>
+                            <img src="images/contact1.jpg" class="img-fluid" alt="contact us form">
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-lg-6 text-left mx-auto pt-4 pt-lg-0">
+                        <h5 class="contact-form font-weight-bold">To email us please fill out the form</h5>
+                        <form>
+                            <fieldset><legend></legend>
+                            <div class="form-group">
+                                <label class="form-input-label" for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-input-label" for="mail">Email Address</label>
+                                <input type="email" class="form-control" id="mail" placeholder="name@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-input-label" for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-input-label" for="textarea">Enquiry</label>
+                                <textarea class="form-control" id="textarea" rows="5" required></textarea>
+                                </div>
+                            <div>
+                                <button type="submit" class="btn btn-submit-form px-4">Submit</button>
+                            </div>
+                        </fieldset>
+                        </form>
+                    </div>
+                </div>
+        </section>
+    </div>
+</div>
+<div id="footer">
+    <div class="container programs-container">
+        <div class="row mx-auto">
+            <div class="text-center text-sm-left col-sm-12 col-md-5 col-lg-4">
+                <h5 class="pt-1 footer-brand mb-3 mt-0"><a href="">Swinburne Kids</a></h5>
+                <p class="footer-p d-inline pr-3"><a  href="#"><span class="footer-icon fas fa-phone-square-alt"></span> 9414 8000</a></p>
+                <p class="footer-p d-inline"><a  href="#contact"><span class="footer-icon fas fa-envelope-square"></span> Contact Us</a></p>
+                <button data-toggle="modal" data-target="#modal11" type="button" class="mx-auto mx-sm-0 d-block mt-3 btn btn-newsletter">Join Our Newsletter</button>
+                <div class="social-icons mt-3">
+                    <a href="#" class="mr-3"><span class="footer-icon fab fa-instagram"></span></a>
+                    <a href="#" class="mr-3"><span class="footer-icon fab fa-facebook"></span></a>
+                    <a href="#"><span class="footer-icon fab fa-twitter"></span></a>
+                </div>
+                
+            </div>
+            <div class="col-md-7 col-lg-8 pt-4 pt-md-0">
+                <div class="row mx-auto">
+                    <div class="col-5 col-sm-4 mx-auto">
+                        <p class="footer-link pr-3"><a href="#about">About</a></p>
+                        <p class="footer-link pr-3"><a href="#learning-env">Learning Environment</a></p>
+                        <p class="footer-link pr-3"><a href="#approach">Approach</a></p>
+                        <p class="footer-link pr-3"><a href="#curriculum">Curriculum</a></p>
+                        <p class="mb-3 mb-md-0 footer-link pr-3"><a href="#gallery">Gallery</a></p>
+                        <p class="d-block d-sm-none footer-link pr-3"><a href="#news">Latest News</a></p>
+                        <p class="mb-0 d-block d-sm-none mb-0 footer-link pr-3"><a href="#events">Events</a></p>
+                    </div>
+                    <div class="col-5 col-sm-4 mx-auto">
+                        <p class="footer-link pr-3"><a href="#program">Programs</a></p>
+                        <p class="footer-link pr-3"><a href="#form-clickable">Registration</a></p>
+                        <p class="footer-link pr-3"><a href="#form-clickable">Tour</a></p>
+                        <p class="footer-link pr-3"><a href="#form-clickable">Fees</a></p>
+                        <p class="mb-sm-2 mb-md-0 footer-link pr-3"><a href="#form-clickable">Term Dates</a></p>
+                        <p class="mb-3 mb-md-0 d-block d-md-none footer-link pr-3"><a href="#team">Team</a></p>
+                        <p class="d-block d-sm-none footer-link pr-3"><a href="#supporters">Supporters</a></p>
+                        <p class="d-block d-sm-none mb-0 footer-link pr-3"><a href="#acknowledgement">Acknowledment</a></p>  
+                    </div>
+                    <div class="d-none d-sm-block col-5 col-sm-4">
+                        <p class="footer-link pr-3"><a href="#team">Team</a></p>
+                        <p class="footer-link pr-3"><a href="#supporters">Supporters</a></p>
+                        <p class=" footer-link pr-3"><a href="#acknowledgement">Acknowledment</a></p>
+                        <p class="footer-link pr-3"><a href="#news">Latest News</a></p>
+                        <p class="mb-0 footer-link pr-3"><a href="#events">Events</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container py-3 text-center">
+            <p class="d-sm-inline pr-sm-3" style="color:white;background-color: rgb(82, 82, 136); ">@ 2019 Swinburne Kids</p>
+            <a href=""><p class="d-inline footer-link pr-3">Terms & Conditions</p></a>
+            <a href="#" data-toggle="modal" data-target="#modal8"><p class="d-inline footer-link pr-sm-3">Our Policies</p></a>
+        </div>
+    </div>
+    <div class="footer-bottom-2 text-center">
+        <p class="m-0 px-4 pt-2 pb-2">“This website has been created by a student studying the Certificate IV in IT (Digital Media Technology) at Swinburne University.   It has been created for assessment purposes only and willnot be commercially published.    Any copyright material used in this website is used without prejudice or to invoke harm and is used simply to aid the content for assessment purposes only.”</p>
+        <a href="mailto:102482833@student.swin.edu.au" class="py-2 m-0"><span class="far fa-envelope"></span> 102482833@student.swin.edu.au</a>
+    </div>
+</div>
+
+<!--MODALS MODALS-->
+<!-- Modal 1-->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal1Title">Michelle Jones</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p class="font-weight-bold">Administration - Diploma of Business (Accounting)</p>
+                <p>Michelle has worked for Swinburne Kids since 2010 and is our administration guru. She is
+                    married to her Tom and has 2 teenage boys. Michelle loves working with the staff and
+                    parents and is a friend and confidant to many. She loves the children’s smiles and receiving
+                    hugs and artwork from the students.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 1-->
+<!-- Modal 2-->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal2Title">Lisa Collins</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <p class="font-weight-bold">Early Childhood Assistant - Certificate III in Children’s Services</p>
+                    <p>This is Lisa’s first year at Swinburne Kids. Lisa loves the hands on experience of learning
+                        through play with young students.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 2-->
+<!-- Modal 3-->
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal3Title">Sue Childs</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <p class="font-weight-bold">Early Childhood Assistant - Certificate III in Children’s Services</p>
+                    <p >Sue spent 5 years living in France, working as a Nanny with an Australian diplomat’s young
+                            family. On her return home, she studied her Certificate III in Children’s Services so she could
+                            continue to work with young children. Sue loves seeing a child’s face light up when they
+                            learn something new and she especially loves teaching the children about France and the
+                            French Language.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 3-->
+<!-- Modal 4-->
+<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal4Title">Mrs Rachael Brown</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p class="font-weight-bold">Early Childhood Assistant - Certificate III in Children’s Services</p>
+                <p>Rachael has been a part of the Swinburne Kids family for 5 years as an Early Childhood
+                        Assistant. Rachael has a Certificate III in Children’s Services and she loves her job because
+                        she can impact children’s lives and watch them grow and learn. In her free time Rachael
+                        enjoys spending time with her husband, Chris, and their two sons, Noah and Nathan. She
+                        loves sports, listening to music, and hanging out with her three dogs, Laverne, Ruby, and
+                        Francis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 4-->
+<!-- Modal 5-->
+<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal5Title">Ms Jodie Newton</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p class="font-weight-bold">Early Childhood Assistant - Certificate III in Children’s Services</p>
+                <p>Jodie returned to the workforce in 2015 after being at home with her four children and an
+                        assistant for our 3 and 4 year old groups. She is a past parent, has worked as a paediatric
+                        nurse at the Royal Children’s Hospital and has completed an Integration Aid course and a
+                        Certificate III in Child Care. Returning to the Preschool has been wonderful and rewarding,
+                        she says. She enjoys working with the other staff, parents and most importantly being
+                        with the children and watching them learn, grow and develop into independent learners.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 5-->
+<!-- Modal 6-->
+<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal6Title">Mrs Heather Simpson</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p class="font-weight-bold">Early Childhood Teacher - GradDip Ed (Early Childhood), BA (Arts)</p>
+                <p>Heather has been in the early childhood field for 7 years and works with our 4 year old
+                        groups. She has a passion for early learning, especially enriching young minds through play
+                        and mindful experiences. Heather is currently studying for her Master’s Degree in early
+                        childhood education and in her free time she enjoys traveling, reading, and enjoying life
+                        with her husband Andy and their two cats, London and Artemis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 6-->
+<!-- Modal 7-->
+<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal7Title">Ms Samantha Manner</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p class="font-weight-bold">Early Childhood Teacher - GradDip Ed (Early Childhood), BA (Dance)</p>
+                <p>Sam joined us in 2010, and works with both our 3 and 4 year old groups. She recognises
+                        the importance of these early years, and wants to provide an environment that is warm and
+                        nurturing, ensuring each child and family feels a sense of belonging. She believes her job
+                        as an educator is to provide a learning environment that is safe and stimulating,
+                        encouraging self-esteem in children, self-help skills, resilience and an environment that
+                        supports a play based program.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 7-->
+<!-- Modal 8 policies-->
+<div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal8Title">Our Policies</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <a href="#"><p class="policies-p">Acceptance and Refusal of Authorisations Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Administration of First Aid Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Administration of Medication Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Anaphylaxis Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Asthma_Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Enrolment Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Child Safe Environment Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Code of Conduct Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Complaints and Grievances Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Curriculum Development Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Dealing with Infectious Diseases Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Dealing with Medical Conditions Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Delivery and Collection of Children Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Determining Responsible Person Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Diabetes Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Emergency and Evacuation Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Enrolment and Orientation Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Environmental Sustainability Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Epilepsy Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Excursions and Service Events Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Fees Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Food Safety Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Governance and Management Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Hygiene Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Incident, Injury, Trauma and Illness Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Inclusion and Equity Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Nutrition, Oral Health and Active Play Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Occupational Health and Safety Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Participation of Volunteers and Students Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Privacy and Confidentiality.pdf</p></a>
+                <a href="#"><p class="policies-p">Relaxation and Sleep Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Staffing Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Sun Protection Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Supervision of Children Policy.pdf</p></a>
+                <a href="#"><p class="policies-p">Water Safety Policy.pdf</p></a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 8-->
+<!-- Modal 9 registration-->
+<div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9Title" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal9Title">Application Form</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form class="register-form-modal"><fieldset><legend></legend>
+                    <h4>Child's Details</h4>
+                    <div class="form-group row">
+                        <label for="surnameChild" class="pt-0 col-sm-3 col-form-label">Surname</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="surnameChild" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="nameChild" class="pt-0 col-sm-3 col-form-label">Given Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="nameChild" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="addressChild" class="pt-0 col-sm-3 col-form-label">Residential Address</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control form-control-sm" rows="3" id="addressChild" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="birthChild" class="pt-0 col-sm-3 col-form-label">Date of Birth</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control form-control-sm" id="birthChild" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="pt-0 col-sm-3 col-form-label">Gender</label>
+                        <div class="col-sm-9">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genderChild" id="inlineRadio1" value="male">
+                                <label class="form-check-label" for="inlineRadio1">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genderChild" id="inlineRadio2" value="female">
+                                <label class="form-check-label" for="inlineRadio2">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="pt-0 col-sm-3 col-form-label">Group</label>
+                        <div class="col-sm-9">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="groupChild" id="3year" value="3year">
+                                <label class="form-check-label" for="3year">3 Year Old Group</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="groupChild" id="4year" value="4year">
+                                <label class="form-check-label" for="4year">4 Year Old Group</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="yearEntry" class="pt-0 col-sm-3 col-form-label">Year of Entry</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control form-control-sm" id="yearEntry" required>
+                        </div>
+                    </div>
+                    <h4 class="pt-3">Family Details</h4>
+                    <p class="pt-2 font-weight-bold" style="color:rgb(59, 55, 56)">Parent 1</p>
+                    <div class="form-group row">
+                        <label for="title" class="pt-0 col-sm-3 col-form-label">Title</label>
+                        <div class="col-sm-9">
+                            <select size="1" class="form-control custom-select-sm" id="title" required>
+                                <option value="" selected>Choose...</option>
+                                <option value="mr">Mr</option>
+                                <option value="ms">Ms</option>
+                                <option value="mrs">Mrs</option>
+                                <option value="dr">Dr</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="surname1" class="pt-0 col-sm-3 col-form-label">Surname</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="surname1" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="nameP1" class="pt-0 col-sm-3 col-form-label">Given Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="nameP1" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="occupation1" class="pt-0 col-sm-3 col-form-label">Occupation</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="occupation1" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-3 col-form-label">Telephone</span>
+                        <div class="col-sm-9">
+                            <div class="row">
+                                <label for="tel1" class=" col-2 col-form-label m-0">Home</label>
+                                <div class="col-10">
+                                    <input type="tel" class="form-control form-control-sm" id="tel1" required>
+                                </div>
+                                <label for="tel2" class="col-2 col-form-label m-0">Work</label>
+                                <div class="col-10">
+                                    <input type="tel" class="form-control form-control-sm" id="tel2">
+                                </div>
+                                <label for="tel3" class=" col-2 col-form-label m-0">Mobile</label>
+                                <div class="col-10">
+                                    <input type="tel" class="form-control form-control-sm" id="tel3">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email1" class="pt-0 col-sm-3 col-form-label">Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control form-control-sm" id="email1" required>
+                        </div>
+                    </div>
+                    <p class="pt-2 font-weight-bold" style="color:rgb(59, 55, 56)">Parent 2</p>
+                    <div class="form-group row">
+                        <label for="title2" class="col-sm-3 pt-0 col-form-label">Title</label>
+                        <div class="col-sm-9">
+                            <select size="1" class="form-control custom-select-sm" id="title2" required>
+                                <option value="" selected>Choose...</option>
+                                <option>Mr</option>
+                                <option>Ms</option>
+                                <option>Mrs</option>
+                                <option>Dr</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="surname2" class="col-sm-3 pt-0 col-form-label">Surname</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="surname2" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="nameP2" class="col-sm-3 pt-0 col-form-label">Given Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="nameP2" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="occupation2" class="col-sm-3 pt-0 col-form-label">Occupation</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control form-control-sm" id="occupation2" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <span class="col-sm-3 col-form-label">Telephone</span>
+                        <div class="col-sm-9">
+                            <div class="row">
+                                <label for="tel4" class=" col-2 col-form-label m-0">Home</label>
+                                <div class="col-10">
+                                    <input type="tel" class="form-control form-control-sm" id="tel4" required>
+                                </div>
+                                <label for="tel5" class=" col-2 col-form-label m-0">Work</label>
+                                <div class="col-10">
+                                    <input type="tel" class="form-control form-control-sm" id="tel5">
+                                </div>
+                                <label for="tel6" class=" col-2 col-form-label m-0">Mobile</label>
+                                <div class="col-10">
+                                    <input type="tel" class="form-control form-control-sm" id="tel6">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email2" class="pt-0 col-sm-3 col-form-label">Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control form-control-sm" id="email2" required>
+                        </div>
+                    </div>
+                    <h4 class="pt-3">Additional Details</h4>
+                    <div class="form-group row">
+                        <label for="language" class="pt-0 col-sm-4 pt-0 col-form-label">Language Spoken at Home</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control form-control-sm" id="language" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="pt-0 col-sm-12 col-form-label">Does your child have special need?</label>
+                        <div class="col-sm-4">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="pecialNeed" id="specialNeedYes" value="specialNeedYes">
+                                <label class="form-check-label" for="specialNeedYes">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="pecialNeed" id="specialNeedNo" value="specialNeedNo">
+                                <label class="form-check-label" for="specialNeedNo">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="specialDet" class="pt-0 col-sm-4 col-form-label">If yes, please give details</label>
+                        <div class="col-sm-8">
+                            <textarea class="form-control form-control-sm" rows="3" id="specialDet"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="pt-0 col-sm-12 col-form-label">Does you have any other child currently enrolled at Swinburne Kids?</label>
+                        <div class="col-sm-4">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="otherChild" id="otherChildYes" value="otherChildNo">
+                                <label class="form-check-label" for="otherChildYes">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="otherChild" id="otherChildNo" value="otherChildNo">
+                                <label class="form-check-label" for="otherChildNo">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="pt-0 col-sm-12 col-form-label">Have you had any other children attend Swinburne Kids?</label>
+                        <div class="col-sm-4">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="attendChild" id="attendChildYes" value="otherChildNo">
+                                <label class="form-check-label" for="attendChildYes">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="attendChild" id="attendChildNo" value="otherChildNo">
+                                <label class="form-check-label" for="attendChildNo">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="declared" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                    <span class="font-weight-bold">Declaration: </span> I / We decalre that the information provided
+                                    is correct. I / We understand that this is an application only and is not a guarantee of placement. 
+                                    Enclosed is payment of a $10 administration fee.
+                            </label>
+                            <div class="invalid-feedback">
+                            You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-register">Save and Proceed to Payment</button>
+                </fieldset></form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 9 ends-->
+<!-- Modal 10 login-->
+<div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10Title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header login-form-head">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;">
+            <span aria-hidden="true" style="color:rgb(0, 0, 0);">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h5 class="modal-title text-center" id="modal10Title">Parent Login</h5>
+            <form class="p-sm-4">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" required>
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" required>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <div>
+                        <a href="#">Forget Password?</a>
+                    </div>                   
+                </div>
+                <div class="">
+                    <button type="submit" class="btn btn-login btn-block">Submit</button>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal 10 login ends-->
+<!-- Modal 11 newsletter-->
+<div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header subs-form-head">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;">
+                <span aria-hidden="true" style="color:rgb(0, 0, 0);">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <h5 class="modal-title text-center" id="modal11Title" style="color:rgb(161, 70, 67)">Subscribe Our Newsletter</h5>
+                <form class="p-sm-4">
+                    <div class="form-group">
+                        <label for="newsletter-name">Full Name</label>
+                        <input type="text" class="form-control" id="newsletter-name" placeholder="Name Surname" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="newsletter-mail">Email Address</label>
+                      <input type="email" class="form-control" id="newsletter-mail" aria-describedby="emailHelp1" placeholder="name@example.com" required>
+                      <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                        <label class="form-check-label" for="exampleCheck2">Daily Newsletter</label>
+                    </div>
+                    <div class="">
+                        <button type="submit" class="btn btn-about btn-block">Submit</button>
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Modal 11 newsletter ends-->
+
+<!-- Modal 12 book a tour -->
+<div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered " role="document">
+          <div class="modal-content">
+            <div class="modal-header book-form-head">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;">
+                <span aria-hidden="true" style="color:rgb(0, 0, 0);">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <h5 class="modal-title text-center" id="modal12Title" style="color:rgb(161, 70, 67)">Book a Free Tour</h5>
+                <form class="p-sm-4">
+                    <div class="form-group">
+                        <label for="tour-name">Parent's Name</label>
+                        <input type="text" class="form-control" id="tour-name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tour-surname">Parent's Surname</label>
+                        <input type="text" class="form-control" id="tour-surname" placeholder="Enter Surname" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="tour-mail">Email Address</label>
+                      <input type="email" class="form-control" id="tour-mail" aria-describedby="emailHelp3" placeholder="name@example.com" required>
+                      <small id="emailHelp3" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="tour-phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="tour-phone" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kidsNumber" class="pt-0 col-form-label">Number of child/ren you have</label>
+                        <select class="form-control custom-select-sm" id="kidsNumber" required>
+                            <option value="" selected>Choose...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tour-date">Times you are available</label>
+                        <input type="date" class="form-control" id="tour-date" required>
+                    </div>
+                    <div class="">
+                        <button type="submit" class="btn btn-about btn-block">Submit</button>
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal 12 book a tour ends-->
+<!-- Modal 13 news 1-->
+<div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal13Title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal13Title">Healthy Food Day</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>12/10/2019</p>
+            <h4>Healthy eating games and activities</h4>
+            <p class="">Using games and activities is a great way to help 
+                children learn about healthy eating while having 
+                fun at the same time! The ideas below can be used 
+                to engage children in healthy eating experiences, 
+                teach them to recognise different foods and encourage 
+                them to experiment with new foods, tastes, flavours and textures.
+                </p>
+                <h5>The veggie guessing bag</h5>
+                <p>Try this activity to increase children’s recognition and awareness 
+                    of different vegetables. Place some vegetables (real or plastic) in a 
+                    bag (e.g. pillow slip). Ask children to feel inside the bag and guess 
+                    which vegetables are there. As a variation, blindfold children and place
+                     a vegetable in their hands. Ask them to guess what the vegetable is by 
+                     feeling, smelling and even tasting it.</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal 13 news 1 ENDS-->
+<!-- Modal 14 news 1-->
+<div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modal14Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal14Title">Dancing Day</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p>18/09/2019</p>
+                <h4>Scattered Square Dance</h4>
+                <p class="">By placing X's on the dance area, the teacher prepares for this activity.
+                        Space the marks to give plenty of room for movement at least 4 feet apart.
+                        Every child is supposed to stand on one line.</p>
+                    <p>The teacher then leads the students through learning 
+                        age-appropriate square dance movements like the cactus
+                         by balancing on one leg, the twister by spinning in a
+                          circle, and the hit-the-hay by</p>
+                          <p>With some trepidation over the academic world ahead of them, 
+                              kindergartens rising begin the school year. 
+                              Typically, however, they adapt quickly to the 
+                              new classroom setting, making friends with excitement and learning.</p>
+    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal 14 news 1 ENDS-->
+    <!-- Modal 15 news 1-->
+<div class="modal fade" id="modal15" tabindex="-1" role="dialog" aria-labelledby="modal15Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal15Title">Painting Activities</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p>25/07/2019</p>
+                <h4>Create a tree-inspired, 3-D sculpture</h4>
+                <p class="">Painting is beautiful, but in your classroom, 
+                    painting is just one medium you can use. These three-dimensional 
+                    sculptures combine two things that children love: the great 
+                    outdoors and beads. To get started, you just need a few things: 
+                    beads, clay, and a place to collect sticks.
+                    </p>
+                    <p>Go out to the school playground on a "field trip," and the students will 
+                        "forage" for the sticks and branches that they want to use.
+                         When back in the classroom, the beads will decorate your 
+                         little kindergarteners with their twigs. Bonus: Develop fine 
+                         motor skills in this task.</p>
+    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal 15 news 1 ENDS-->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/flickity.pkgd.min.js"></script>
+<script>
+    $(window).load(function() {
+        $(".main-carousel").flickity({
+            groupCells: "80%", 
+            initialIndex:2,
+            imagesLoaded: true
+        });
+    });
+</script>
+<script>
+    
+    $('.formBtn').click(function(){
+    const divId='#'+$(this).attr('id')+'Inf';
+    $('.showInfo').hide();
+    $(divId).fadeIn(500);
+    console.log(divId);
+    });
+
+    $('.formButton').click(function(){
+    const divId='#'+$(this).attr('id')+'Info';
+    $('.showInfos').hide();
+    $(divId).fadeIn(500);
+    console.log(divId);
+    });
+
+</script>
+<script>
+    
+    $('#moreButton').click(function(){
+    $('.showArticles').fadeIn(500);
+    });
+</script>
+
+<script>
+    $('#toggle-button').on("click", function(){
+        $('.mobile-nav-animation').toggleClass('mobile-nav-animation-open');
+        $(this).toggleClass("active");
+    })
+    // function noScroll(){
+    //     if($( ".mobile-nav-animation" ).hasClass( "mobile-nav-animation-open" )){
+    //         $('html, body').css({
+    //         overflow: 'hidden',
+    //         height: '100%'
+    //         })
+    //     }else{
+    //         $('html, body').css({
+    //         overflow: 'auto',
+    //         height: 'auto'
+    //         })
+    //     }
+    // }
+
+    $('.mobile-links').on('click', function(){
+        $('html,body').css({
+            height:'auto'
+        });
+        $('.mobile-nav-animation').removeClass("mobile-nav-animation-open");
+        $('#toggle-button').removeClass("active");
+    })
+</script>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll=function (){
+        scrollFunction()
+    }
+    function scrollFunction(){
+        if(document.body.scrollTop >20 || document.documentElement.scrollTop>20){
+        document.getElementById("myBtn").style.display="block";
+        }else{
+        document.getElementById("myBtn").style.display="none";
+        }
+    }
+    function topFunction() {
+    document.body.scrollTop=0;
+    document.documentElement.scrollTop=0;
+    }
+</script>
+
+</body>
+</html>

@@ -1523,25 +1523,25 @@
 </script>
 <script>
     
-    $('.formBtn').click(function(){
-    const divId='#'+$(this).attr('id')+'Inf';
-    $('.showInfo').hide();
-    $(divId).fadeIn(500);
-    console.log(divId);
-    });
+    $('.formBtn').click(function () {
+      const divId = '#' + $(this).attr('id') + 'Inf'
+      $('.showInfo').hide()
+      $(divId).fadeIn(500)
+      console.log(divId)
+    })
 
-    $('.formButton').click(function(){
-    const divId='#'+$(this).attr('id')+'Info';
-    $('.showInfos').hide();
-    $(divId).fadeIn(500);
-    console.log(divId);
-    });
-
+    $('.formButton').click(function () {
+      const divId = '#' + $(this).attr('id') + 'Info'
+      $('.showInfos').hide()
+      $(divId).fadeIn(500)
+      console.log(divId)
+    })
+  
 </script>
 <script>
     
-    $('#moreButton').click(function(){
-    $('.showArticles').fadeIn(500);
+    $('#moreButton').click(function () {
+      $('.showArticles').fadeIn(500);
     });
 </script>
 
@@ -1564,29 +1564,30 @@
     //     }
     // }
 
-    $('.mobile-links').on('click', function(){
-        $('html,body').css({
-            height:'auto'
-        });
-        $('.mobile-nav-animation').removeClass("mobile-nav-animation-open");
-        $('#toggle-button').removeClass("active");
+    $('.mobile-links').on('click', function () {
+      $('html,body').css({
+        height: 'auto'
+      })
+      $('.mobile-nav-animation').removeClass('mobile-nav-animation-open')
+      $('#toggle-button').removeClass('active')
     })
+
 </script>
 <script>
     // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll=function (){
-        scrollFunction()
+    window.onscroll=function () {
+        scrollFunction ()
     }
-    function scrollFunction(){
-        if(document.body.scrollTop >20 || document.documentElement.scrollTop>20){
+    function scrollFunction () {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display="block";
         }else{
         document.getElementById("myBtn").style.display="none";
         }
     }
     function topFunction() {
-    document.body.scrollTop=0;
-    document.documentElement.scrollTop=0;
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     }
 </script>
 
